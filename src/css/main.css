@@ -4,6 +4,10 @@ body {
 	color: #DCDCDC;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 
 
 
@@ -52,7 +56,7 @@ HEADER
   color: #ffffff;
 }
 
-.header .header-menu .apropos {
+.header .header-menu .D3 {
   color: #ffffff;
 }
 
@@ -63,7 +67,7 @@ HEADER
 .header .header-menu a {
 	margin-right: 15px;
 	color: #bdc3c7;
-	font-size: 105%
+	font-size: 105%;
 	opacity:100%;	
 }
 
@@ -74,6 +78,7 @@ HEADER
 .header .header-menu a:hover {
 	color: #ffffff;
 	transition: color 0.5s;
+  opacity: 100%;
 }
 
 /*
@@ -85,11 +90,11 @@ BANNER
 }
 
 .banner .banner-image {
-	position: relative;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;	
+    background-image: url("img/welcome.png");
+    background-position: center;
+    background-size: cover;
+    height: 470px;
 }
 
 .banner .banner-content {
@@ -105,7 +110,7 @@ BANNER
 }
 
 .banner .banner-content h1 {
-	font-size: 500%;
+	font-size: 100px;
   width: 100%
 }
 
@@ -118,8 +123,6 @@ BANNER
     transform: translate(50%,-50%);
     text-transform: uppercase;
     font-family: verdana;
-    font-size: 500%;
-    font-weight: 700px;
     color: white;
     text-shadow: 1px 1px 1px #f5f6fa,
         1px 2px 1px #919191,
@@ -176,14 +179,311 @@ BANNER
  	margin-top: 250px;
  }
 
+
+
+
+
+ /*
+ accueille
+ */
+
+ .vik67-txt{
+   padding-top: 1000px;
+ }
+
+#scroll {
+  margin-top: -850px;
+}
+
+
+.scroll {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -90px;
+ }
+
+
+
+.image .img a .D3  {
+  width: 18%;
+  height: 750px;
+  object-fit: cover;
+  padding-left: 0.8%;
+  float: left;
+}
+
+
+
+
+.image .img a .jeux {
+  width: 45%;
+  height: 450px;
+  object-fit: cover;
+  float: right;
+  padding-left: 0.7%;
+  padding-right: 0.8%;
+}
+
+
+.image .img a .setup  {
+  width: 36%;
+  height: 450px;
+  object-fit: cover;
+  margin-right: 0.8%;
+  float:right;
+}
+
+
+
+.image .img a .music  {
+  width: 82%;
+  height: 300px;
+  object-fit: cover;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  float:top;
+  padding-top: 0.8%;
+}
+
+.image .img .D3 .D3-txt{
+  font-size:5vw;
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  color: white;  
+  width: 18%;
+  text-decoration: underline;
+  padding-left: 0.8%;
+  float: left;
+  text-shadow: black 1px 0 10px;
+  z-index: 2;
+}
+
+
+
+.image .img .jeux .jeux-txt {
+  font-size:5vw;
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  color: white;  
+  width: 60%;
+  text-decoration: underline;
+  float: right;
+  margin-left: 11%;
+  text-shadow: black 1px 0 10px;
+  z-index: 2;
+  text-align: center;
+}
+
+
+.image .img .setup .setup-txt  {
+  font-size:5vw;
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+  width: 80%;
+  text-decoration: underline;
+  float: right;
+  margin-left: 42%;
+  text-shadow: black 1px 0 10px;
+  z-index: 2;
+  text-align: center;
+}
+
+
+
+.image .img .music .music-txt  {
+  font-size:5vw;
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  color: white;  
+  width: 18%;
+  text-decoration: underline;
+  float: top;
+  margin-left: 50%;
+  margin-top: 470px;
+  text-shadow: black 1px 0 10px;
+  z-index: 2;
+}
+
+
+.image .img .music img  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .music:hover img   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.05); /* Safari et Chrome */
+-moz-transform:scale(1.05); /* Firefox */
+-ms-transform:scale(1.05); /* Internet Explorer 9 */
+-o-transform:scale(1.05); /* Opera */
+transform:scale(1.05);
+}
+
+.image .img .music p  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .music:hover p   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+
+
+
+
+.image .img .setup img  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .setup:hover img   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.05); /* Safari et Chrome */
+-moz-transform:scale(1.05); /* Firefox */
+-ms-transform:scale(1.05); /* Internet Explorer 9 */
+-o-transform:scale(1.05); /* Opera */
+transform:scale(1.05);
+}
+
+.image .img .setup p  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .setup:hover p   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+
+
+
+
+
+
+
+.image .img .D3 img  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .D3:hover img   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.05); /* Safari et Chrome */
+-moz-transform:scale(1.05); /* Firefox */
+-ms-transform:scale(1.05); /* Internet Explorer 9 */
+-o-transform:scale(1.05); /* Opera */
+transform:scale(1.05);
+}
+
+.image .img .D3 p  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .D3:hover p   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+
+
+
+.image .img .jeux img  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .jeux:hover img   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.05); /* Safari et Chrome */
+-moz-transform:scale(1.05); /* Firefox */
+-ms-transform:scale(1.05); /* Internet Explorer 9 */
+-o-transform:scale(1.05); /* Opera */
+transform:scale(1.05);
+}
+
+.image .img .jeux p  {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image .img .jeux:hover p   {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 mon setup.html
 */
 
 
-
-.banner .banner-image-setup{
-  min-width: 1920px;
+.banner .banner-content-setup {
+  background-image: url("img/setup.png");
+  background-position: center;
+  background-size: cover;
+  height: 470px;
 }
 
 
@@ -276,7 +576,10 @@ MUSIQUE.HTML
 
 
 .banner .banner-image-mp3{
-  min-width: 1920px;
+  background-image: url("img/dj.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 470px;
 }
 
  .text {
@@ -289,11 +592,10 @@ MUSIQUE.HTML
   max-width: 900px;
 }
 
-}
 
 
-#trait_dessus
-{
+
+#trait_dessus{
 padding-top: 5px;
 width : 10000px;
 z-index: 10;
@@ -353,16 +655,75 @@ JEUX
 
 
 .banner .banner-image-jeux{
-  min-width: 1920px;
+  background-image: url("img/jeux.png");
+  background-position: center;
+  background-size: cover;
+  height: 470px;
+}
+
+.jeux h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+.jeux h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
 }
 
 
+.jeux .j-1 img{
+  object-fit: cover;
+  height: 450px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jeux .j-2 img{
+  object-fit: cover;
+  height: 450px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.jeux .j-3 img{
+  object-fit: cover;
+  height: 450px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.jeux .j-1 .mrc-txt{
+  text-align: left;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  font-family: 'Fira Sans', sans-serif;            
+}
+
+
+
 /*
-a propos
+3D
 */
 
-.banner .banner-image-propos{
-  min-width: 1920px;
+.banner .banner-image-3D{
+  background-image: url("img/3D.png");
+  background-position: center;
+  background-size: cover;
+  height: 470px;
 }
 
 
@@ -412,7 +773,7 @@ site footer
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:white;
   text-decoration:none;
 }
 .footer-links .header-menu
@@ -429,7 +790,11 @@ site footer
 .footer-links .header-menu a 
 {
 	margin-right: 100px; 
+  
 }
+
+
+
 .footer-links li
 {
   display:block
@@ -440,7 +805,9 @@ site footer
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color: #ffffff;
+	transition: color 0.5s;
+  opacity: 100%;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -466,6 +833,7 @@ site footer
   margin:0;
   margin-bottom:-30px;
 }
+
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
@@ -521,7 +889,6 @@ site footer
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
-  background-color:#29aafe
 }
 .social-icons.size-sm a
 {
